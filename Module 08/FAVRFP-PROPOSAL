@@ -1,0 +1,12 @@
+REQUEST FOR PROPOSAL
+====================
+ 
+ACCT NO   GENRE      LAST NAME       FIRST NAME       TYPE         QUALITY    SHIP COST          SHPCOST  TAX      TOTAL         
+--------  ---------  --------------- ---------------  ------------ ---------- ---- ------------  -------- -------  ------------- 
+11111111  ROCK       WOOTEN          VICTOR           MASS         PREMIUM    IN      $2,251.20   $225.12  $80.09      $2,656.41 
+22222222  FUSION     MCLAUGHLIN      JOHN             GUITAR       PREMIUM    OUT     $3,178.78   $635.75  $54.30      $4,068.83 
+ 
+NUMBER OF RECORDS:                        6
+VALID RECORDS:                            2
+INVALID RECORDS:                          4
+GRAND TOTAL:                      $6,725.24

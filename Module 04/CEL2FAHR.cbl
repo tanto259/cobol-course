@@ -1,0 +1,17 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. CEL2FAHR.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01  TEMPS-VARS.
+           05 WS-FAHRENHEIT     PIC 9999.
+           05 WS-CELSIUS        PIC 999V99.
+           05 WS-CELSIUS-OUT    PIC 999.99.
+       PROCEDURE DIVISION.
+           MOVE 61.5 TO WS-CELSIUS.
+           COMPUTE WS-FAHRENHEIT ROUNDED =
+                  ( (WS-CELSIUS * 9) / 5 ) + 32.
+           MOVE WS-CELSIUS TO WS-CELSIUS-OUT.
+           DISPLAY "Celsius: " WS-CELSIUS-OUT.
+           DISPLAY "Fahrenheit: " WS-FAHRENHEIT.
+           GOBACK.
+

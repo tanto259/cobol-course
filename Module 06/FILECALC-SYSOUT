@@ -1,0 +1,36 @@
+>>>>><<<<<
+Operation: A
+Invals-1: 1111
+Invals-2: 22
+Invals Result: 000331A
+>>>>><<<<<
+Operation: M
+Invals-1: 1111
+Invals-2: 22
+Invals Result: 002444B
+>>>>><<<<<
+Operation: D
+Invals-1: 1111
+Invals-2: 22
+Invals Result: 000019H
+>>>>><<<<<
+Operation: S
+Invals-1: 1111
+Invals-2: 22
+Invals Result: 000108R
+>>>>><<<<<
+Operation: M
+Invals-1: 9999
+Invals-2: 99
+Invals Result: 098990A
+>>>>><<<<<
+Operation: Q
+Invals-1: 2500
+Invals-2: 00
+Invals Result: 000050{
+>>>>><<<<<
+Operation: Q
+Invals-1: 040}
+Invals-2: 00
+Unable to square root negative number.
+Invals Result: 000000{
