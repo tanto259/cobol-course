@@ -1,0 +1,25 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID.   TABLES02.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 WEEK-DAY-VALUES.
+           05 FILLER  PIC X(09) VALUE "SUNDAY   ".
+           05 FILLER  PIC X(09) VALUE "MONDAY   ".
+           05 FILLER  PIC X(09) VALUE "TUESDAY  ".
+           05 FILLER  PIC X(09) VALUE "WEDNESDAY".
+           05 FILLER  PIC X(09) VALUE "THURSDAY ".
+           05 FILLER  PIC X(09) VALUE "FRIDAY   ".
+           05 FILLER  PIC X(09) VALUE "SATURDAY ".
+       01 WEEKDAY-TABLE REDEFINES WEEK-DAY-VALUES.
+           05 WS-DAY-OF-WEEK PIC X(09) OCCURS 7 TIMES INDEXED BY IDX.
+       77 TBL-SRCH    PIC X(09).
+       77 TBL-IDX-O   PIC 9(04).
+       PROCEDURE DIVISION.
+           MOVE 'TUESDAY' TO TBL-SRCH.
+           PERFORM VARYING IDX FROM 1 BY 1 UNTIL IDX > 7
+               IF WS-DAY-OF-WEEK (IDX) = TBL-SRCH
+                   SET TBL-IDX-O TO IDX
+                   DISPLAY "Tuesday is day " TBL-IDX-O " of the week"
+               END-IF
+           END-PERFORM.
+           GOBACK.

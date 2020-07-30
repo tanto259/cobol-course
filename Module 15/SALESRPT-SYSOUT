@@ -1,0 +1,44 @@
+SALES REPORT
+------------
+TOTAL Q1 SALES OF ALL REGION :   $288,888.86
+MAX Q1 SALES OF ALL REGION   :    $99,999.99
+MIN Q1 SALES OF ALL REGION   :    $22,222.22
+ 
+SALES BREAKOUT
+--------------
+ 
+REGION - 0001
+Q1 SALES    :  $22,222.22
+Q2 SALES    :  $22,222.22
+Q3 SALES    :  $22,222.22
+Q4 SALES    :       $0.00
+------
+TOTAL SALES :     $66,666.66
+ 
+REGION - 0002
+Q1 SALES    :  $77,777.77
+Q2 SALES    :  $77,777.77
+Q3 SALES    :  $77,777.77
+Q4 SALES    :       $0.00
+------
+TOTAL SALES :    $233,333.31
+ 
+REGION - 0003
+Q1 SALES    :  $99,999.99
+Q2 SALES    :  $99,999.99
+Q3 SALES    :  $99,999.99
+Q4 SALES    :       $0.00
+------
+TOTAL SALES :    $299,999.97
+ 
+REGION - 0004
+Q1 SALES    :  $88,888.88
+Q2 SALES    :  $88,888.88
+Q3 SALES    :  $88,888.88
+Q4 SALES    :       $0.00
+------
+TOTAL SALES :    $266,666.64
+ 
+--------------
+ 
+GRAND TOTAL SALES :   $866,666.58
