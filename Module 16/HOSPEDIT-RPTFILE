@@ -1,0 +1,28 @@
+PATNO  PATIENT                 PHONE-NO      TYPE BED   ADMIT   DAILY AMT  DIAG INS STAY NETWORK COPAY   DEDUCT
+=====  ======================  ============= ==== ====  ======  =========  ===  === ===  ======  ======  ======
+11111  Smith       Joanne      (201)652-1111  I      1  200806  $6,959.66  010  HMO 013  IN         $10     $15
+22222  Martin      Ricky       (212)444-1212  O      2  200806  $4,739.52  010  PPO 007  OUT        $90     $25
+63333  Jones       James       (202)555-1212  I      3  200806  $4,654.27  010  HMO 021  IN         $80     $35
+74444  McAllister  BillieJoe   (876)234-1234  I    234  200806  $8,535.32  010  PRI 012  IN         $70     $45
+55555  Luthor      Lex         (764)523-4324  I    984  200806  $6,384.92  010  MED 001  OUT        $60     $55
+66666  Barnum      P.H.        (785)435-4354  O    783  200806  $3,530.30  010  HMO 026  OUT        $50     $65
+98765  Clampett    E.M.        (546)443-2432  I     13  200806    $744.65  010  PRI 031  IN         $40     $75
+88888  Watson      Thomas      (212)764-3483  O     22  200806  $1,035.42  010  PPO 011  IN         $30     $75
+99999  Hamilton    Alex        (909)888-3213  I      2  200806    $972.38  010  HMO 021  IN         $20     $85
+10021  Welch       John        (203)652-0980  O      1  200806  $6,252.96  010  AFF 041  OUT        $10     $14
+12901  Thomas      Frank       (203)652-0980  O      1  200806  $6,252.96  010  AFF 051  OUT         $0      $0
+ 
+Rec in      :           13
+Rec written :           11
+Errors      :            2
+Inpat       :            6
+Outpat      :            5
+HMO         :            4
+PPO         :            2
+MED         :            1
+AFF         :            2
+PRI         :            2
+No Cov      :            0
+ 
+GROSS       :   $41,852.08
+NET         :   $48,210.28
