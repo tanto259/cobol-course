@@ -1,0 +1,3 @@
+[submodule "PARTSUPP"]
+	path = PARTSUPP
+	url = https://github.com/COBOL-Warriors/PARTSUPP
