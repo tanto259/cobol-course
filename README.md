@@ -2,6 +2,8 @@
 
 [![enterprise-cobol-for-business-application-programming-badge](https://user-images.githubusercontent.com/13640520/96600417-7c973700-1323-11eb-98c2-9b9f7aa7e64c.png)](https://www.youracclaim.com/badges/4e5c846d-6097-446b-9971-3df9a847576f)
 
+> #### [Why COBOL? Check out my blog for why studying COBOL won't hurt you!](https://securitypuppy.com/why-cobol-student-edition)
+
 This repository contains my personal workshop programs for the [Enterprise COBOL for Business Application Programming](https://ibm.biz/EnterpriseCOBOLforBusinessApplicationProgramming) course taught by Jonathan Sayles from IBM.
 
 The COBOL programs inside the various folder here are compiled and created in Enterprise COBOL 6 on IBM z/OS 2.4 utilizing the IBM Developer for z/OS or the IBM Z Open Development.
